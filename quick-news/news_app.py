@@ -10,7 +10,7 @@ class NewsApp:
     def __init__(self):
         
         # Fetch the data using the requests module in json format
-        self.data = requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=92b0d30aa4c941d18bec50e86abdd320').json()
+        self.data = requests.get('https://newsapi.org/v2/top-headlines?country=us&apiKey=Your-API-Key').json()
         
         # Initial UI
         self.initialUI()
